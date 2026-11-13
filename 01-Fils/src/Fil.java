@@ -3,7 +3,7 @@ public class Fil extends Thread {
     private final boolean feina;
     private final String textFi;
 
-    public Fil( String name, int prioritat, int delayMs, boolean feina, String textFi) {
+    public Fil(String name, int prioritat, int delayMs, boolean feina, String textFi) {
         super(name);
         this.delayMs = delayMs;
         this.feina = feina;
